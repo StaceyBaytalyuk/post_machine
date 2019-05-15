@@ -3,7 +3,6 @@ import java.util.Arrays;
 import java.util.List;
 
 public class PostMachine {
-
     private List<Boolean> tape;
     private int pointer;
 
@@ -73,5 +72,4 @@ public class PostMachine {
         }
         System.out.println();
     }
-
 }
