@@ -11,7 +11,6 @@ public class PostMachine {
         tape = new ArrayList<>(tapeState.length);
         pointer = pointerPosition;
 
-        //устанавливаем начальное состояние ленты
         for (int i = 0; i < tapeState.length; i++) {
             tape.add(tapeState[i]);
         }
